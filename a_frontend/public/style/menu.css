@@ -1,0 +1,311 @@
+.main-resources-div{
+    width: 215px;
+    padding: 0px;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+.main-resources-div-DARK{
+    background-color: #202020;
+    width: 215px;
+    padding: 0px;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+    transition: 0.3s;
+}
+
+.main-resources-div-small-width{
+    width: 48px;
+    padding: 0px;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+.main-resources-div-small-width-DARK{
+    width: 48px;
+    padding: 0px;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+    background-color: #202020;
+    transition: 0.3s;
+}
+
+.main-resources-icons-click{
+    display: none;
+    margin: 50px;
+    padding: 20px;
+    background-color: red;
+  }
+.maaz{
+    display: none;
+    display: none;
+    margin: 50px;
+    padding: 20px;
+    background-color: red;
+}
+   
+
+.main-unOrderlist{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.menu-listitem{
+    display: flex;
+    height:40;
+    align-items: center;
+    padding: 0px 0px 0px 5px;
+}
+.menu-listitem:hover{
+    transition: 0.3s;
+    background-color: #f3f3f39d;
+    cursor: pointer;
+}
+
+.menu-listitem-DARK{
+    display: flex;
+    height:40;
+    align-items: center;
+    padding: 0px 0px 0px 5px;
+}
+.menu-listitem-DARK:hover{
+    transition: 0.3s;
+    background-color: #4e4e4e85;
+    cursor: pointer;
+}
+
+.listitem-text{
+    font-weight: 800; 
+    font-size: 14px;
+    padding-left: 5px;
+    font-family:monospace;
+}
+
+.listitem-text-DARK{
+    color: rgb(219, 219, 219);
+    font-weight: 800; 
+    font-size: 14px;
+    padding-left: 5px;
+    font-family:monospace;
+}
+
+.menu-listitem-yellow{
+    display: flex;
+    height:35;
+    align-items: center;
+    padding: 0px 0px 0px 5px;
+    color: #f4b518;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    transition: 0.3s;
+}
+.menu-listitem-yellow:hover{
+    background-color: #cecece85;
+    cursor: pointer;
+}
+
+.menu-listitem-yellow-DARK{
+    display: flex;
+    height:35;
+    align-items: center;
+    padding: 0px 0px 0px 5px;
+    color: #f4b518;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    transition: 0.3s;
+}
+.menu-listitem-yellow-DARK:hover{
+    background-color: #4e4e4e85;
+    cursor: pointer;
+}
+
+.menu-listitem-yellow-DARK{
+    display: flex;
+    height:35;
+    align-items: center;
+    padding: 0px 0px 0px 5px;
+    color: #f4b518;
+    border-top: 1px solid #3c3e3e;
+    border-bottom: 1px solid #3c3e3e;
+    transition: 0.3s;
+}
+
+.menu-listitem-extensions{
+    display: flex;
+}
+.menu-listitem-extensions:hover{
+    transition: 0.3s;
+    background-color: #f3f3f385;
+    cursor: pointer;
+}
+
+.menu-listitem-extensions-DARK{
+    display: flex;
+}
+.menu-listitem-extensions-DARK:hover{
+    transition: 0.3s;
+    background-color: #3c3e3e;
+    cursor: pointer;
+}
+
+.last-menu-listitem-extensions{
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.last-menu-listitem-extensions-DARK{
+    border-bottom: 2px solid #3c3e3e;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.listitem-text-extension{
+    font-size: 15px;
+}
+
+.listitem-text-extension-DARK{
+    font-size: 15px;
+    color: rgb(219, 219, 219)
+}
+
+.menu-listitem-info{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #252525;
+    display: flex;
+    height: 40px;
+}
+.menu-listitem-info:hover{
+    transition: 0.3s;
+    background-color: #f3f3f3af;
+    cursor: pointer;
+}
+
+.menu-listitem-info-DARK{
+    display: flex;
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.menu-listitem-info-DARK:hover{
+    transition: 0.3s;
+    background-color: #4e4e4e85;
+    cursor: pointer;
+}
+
+.menu-listitem-Info-text{
+    margin-right: auto;
+    margin-left: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #252525;
+}
+
+.menu-listitem-Info-text-DARK{
+    margin-right: auto;
+    margin-left: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #dbdbdb;
+}
+
+.quilbot-version-DARK{
+    color: #dbdbdb;
+}
+
+
+/* BRIGHT */
+.main-resources-div::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+.main-resources-div::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+.main-resources-div::-webkit-scrollbar-thumb {
+    background: #c2c2c2; 
+}
+
+/* DARK */
+
+.main-resources-div-DARK::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+.main-resources-div-DARK::-webkit-scrollbar-track {
+    background: #121212; 
+  }
+   
+.main-resources-div-DARK::-webkit-scrollbar-thumb {
+    background: #5f5f60; 
+}
+
+
+
+
+                                /* Media query of menu bar */
+
+@media only screen and (max-width: 600px) {
+    .for-media-query-unOrderlist{
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+    }
+
+    .for-media-query-main-resources{
+        border-top: 1px solid #dee1e3 ;
+        border-bottom: 1px solid #dee1e3 ;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        position: fixed;
+        z-index: 10000;
+        transition: 0.3s;
+    }
+
+    .for-media-query-listItem{
+        display: block;
+        text-align: center;
+    }
+    /* .for-media-query-listItem:hover{
+        background-color: white;
+    } */
+
+    .for-media-query-extra{
+        display: none;
+    }
+
+    .for-media-query-listItem-text{
+        margin: 0px;
+        padding: 0px 0px 10px 0px;
+        font-size: 11px;
+        width: 110px;
+    }
+
+    .for-media-query-topHeadedButton{
+        display: none;
+    }
+
+    .main-resources-div::-webkit-scrollbar {
+        height: 0px;
+      }
+      
+}

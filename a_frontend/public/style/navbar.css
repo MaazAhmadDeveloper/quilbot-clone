@@ -1,0 +1,101 @@
+
+.left-side-main-div{
+  position: relative;
+  right:20px;
+  display:flex;
+}
+
+.left-side-menu-Lins-Icon{
+  position: absolute;
+  background-color: white;
+  margin: 10px;
+  padding: 2px;
+  color: #5f6368;
+  border-radius: 50%;
+  transition:0.3s;
+}
+.left-side-menu-Lins-Icon:hover{
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.left-side-menu-Lins-Icon-DARK{
+  background-color: #202020;
+  position: absolute;
+  margin: 10px;
+  padding: 2px;
+  color:#b3b5b7;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.left-side-menu-Lins-Icon-DARK:hover{
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.left-side-main-image{
+  height: 33px;
+  padding: 5px;
+}
+
+.right-side-main-div{
+  position:relative;
+  left:8px;
+  display: flex;
+}
+
+.right-side-main-image{
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.right-getstart-button{
+  width: 200px;
+  height: 36px;
+  background-color: #499557;
+  color:white;
+  border-radius: 20px;
+  display: flex;
+  border: none;
+}
+.right-getstart-button:focus{
+  outline: none;
+}
+
+.right-getstart-text{
+  margin: auto;
+  font-weight: bolder;
+  margin-right: 20px;
+}
+
+
+
+
+/* .profile-menu-list{
+  position: absolute;
+  left: -10px ;
+  top: 29px;
+  list-style-type: none;
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid #c9c9c9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(148, 148, 148);
+}
+
+.profile-menu-list-item{
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.profile-menu-list-item:hover{
+  background-color: #f3f3f3;
+} */
+
+
+
+/* next */
